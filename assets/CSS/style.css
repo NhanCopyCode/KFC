@@ -1,0 +1,72 @@
+:root {
+    --header-height: 102px;
+}
+
+* {
+    padding: 0;
+    margin: 0;    
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.header {
+    height: 102px;
+    font-size: 1.5rem;
+    
+}
+
+.navbar {
+   display: flex;
+   justify-content: space-between;
+   width: 100%;
+   height: var(--header-height)
+
+}   
+.navbar__right,
+.navbar__left {
+    display: flex;
+}
+.navbar__left {
+    list-style: none;
+}
+
+.header__logo {
+
+}
+
+.header__logo-link {
+    background-image: url(https://kfcvn-static.cognizantorderserv.com/images/web/kfc-logo.svg?v=5.0);
+    width: 78px;
+    height: 78px;
+    display: block;
+}
+
+.navbar__list {
+    list-style: none;
+    
+
+}
+
+.navbar__item {
+    
+}
+
+.navbar__item-link {
+    text-decoration: none;
+    color: #202124;
+
+}
+
+.navbar__right {
+
+}
+
+.header__switch-laguage {
+    text-decoration: none;
+}

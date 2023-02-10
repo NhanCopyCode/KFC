@@ -1,0 +1,6 @@
+.grid_pc {
+    width: 1070px;
+    max-width: 1070px;
+    display: flex;
+    margin: 0 auto;
+}
